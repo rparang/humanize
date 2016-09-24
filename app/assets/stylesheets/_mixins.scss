@@ -1,0 +1,15 @@
+@mixin testing() {
+  border: 1px solid red;
+}
+
+@mixin clearfix() {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
