@@ -100,7 +100,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pg (= 0.14.0)
+  pg
   rails (= 4.1.4)
   sass-rails (~> 4.0.3)
   sqlite3

@@ -14,7 +14,7 @@ end
 
 group :production do
   # gems specifically for Heroku go here
-  gem "pg", '0.14.0'
+  gem "pg"
   gem 'therubyracer'
 end
 
