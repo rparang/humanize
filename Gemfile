@@ -15,9 +15,9 @@ end
 group :production do
   # gems specifically for Heroku go here
   gem "pg"
-  gem 'therubyracer'
   gem 'rails_12factor'
 end
 
 # Use jquery as the JavaScript library
 #gem 'jquery-rails'
+
