@@ -20,6 +20,7 @@ class PagesController < ApplicationController
 	end
 
   def buy
+  	#something
   end
 
 end
