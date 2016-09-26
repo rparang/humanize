@@ -192,11 +192,11 @@ li {
   line-height: 7px !important;
   margin-left: 22px;
   li {
-    list-style-type: disc !important;  
+    list-style-type: disc !important;
     font-size: 18px;
-    line-height: 20px;
-    color: $grayLight2;   
-    margin-bottom: 7px;
+    line-height: 22px;
+    color: #818181;
+    margin-bottom: 10px;
     font-weight: 300;
   }
 }
@@ -302,7 +302,7 @@ li {
   .points {
     li {
       font-size: 15px;
-      line-height: 16px;
+      line-height: 20px;
     }
   }
 
@@ -320,7 +320,7 @@ li {
 
 // Pure CSS fixes
 .pure-u-1 {
-  margin: -3px
+  margin: -2px
 }
 
 // Nav
