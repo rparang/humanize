@@ -9,12 +9,12 @@ group :assets  do
 end
 
 group :development do
-  gem 'sqlite3'
+  # gem 'sqlite3'
 end
 
 group :production do
   # gems specifically for Heroku go here
-  gem "pg"
+  # gem "pg"
   gem 'therubyracer'
 end
 
