@@ -1,71 +1,50 @@
-/* line 4, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-}
+  font-family: "Roboto", Helvetica, Arial, sans-serif; }
 
-/* line 12, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 h1 {
   font-weight: 700;
   font-size: 52px;
   line-height: 54px;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
   color: #515654;
-  margin: 0 0 16px 0;
-}
+  margin: 0 0 16px 0; }
 
-/* line 21, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 h2 {
   font-weight: 500;
   font-size: 30px;
   line-height: 34px;
   color: #222222;
-  margin: 0 0 10px 0;
-}
+  margin: 0 0 10px 0; }
 
-/* line 29, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 h2.dark {
-  color: white;
-}
+  color: white; }
 
-/* line 33, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 h3 {
   font-size: 30px;
   line-height: 34px;
   color: #727272;
   font-weight: 400;
-  margin: 0 0 10px 0;
-}
+  margin: 0 0 10px 0; }
 
-/* line 41, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 p, aside {
   font-weight: 300;
   font-size: 22px;
   line-height: 31px;
   color: #818181;
-  margin: 0 0 30px 0;
-}
+  margin: 0 0 30px 0; }
 
-/* line 49, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 aside {
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
-/* line 53, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 p.dark {
-  color: #DBFAC7;
-}
+  color: #DBFAC7; }
 
-/* line 57, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 a {
-  color: #79d63c;
-}
+  color: #79d63c; }
 
-/* line 61, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 li {
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 65, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .button {
   display: inline-block;
   text-transform: uppercase;
@@ -76,389 +55,253 @@ li {
   letter-spacing: 1.33px;
   background-color: #96df66;
   box-shadow: 0 0 4px rgba(58, 96, 33, 0.25);
-  border-radius: 4px;
-}
+  border-radius: 4px; }
 
-/* line 78, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .button:hover {
-  background-color: #a4e37b;
-}
+  background-color: #a4e37b; }
 
-/* line 82, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .button.special {
   background-color: #DBFAC7;
-  color: #85BF60;
-}
+  color: #85BF60; }
 
-/* line 87, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .special:hover {
-  background-color: #ccf8b0;
-}
+  background-color: #ccf8b0; }
 
-/* line 91, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .shop {
   background-color: #96df66;
-  box-shadow: 0 6px 14px rgba(125, 145, 112, 0.51);
-}
+  box-shadow: 0 6px 14px rgba(125, 145, 112, 0.51); }
 
-/* line 96, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .product {
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 100, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .container {
-  margin: 0 20px;
-}
+  margin: 0 20px; }
 
-/* line 104, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .left {
   margin-top: 80px !important;
-  padding: 20px 0;
-}
+  padding: 20px 0; }
 
-/* line 109, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .shop > div > div {
-  padding: 80px 0;
-}
+  padding: 80px 0; }
 
-/* line 113, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .blackhead-main > div > div {
   padding: 140px 50px 60px 50px;
-  text-align: center;
-}
-/* line 117, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.blackhead-main > div > div .description {
-  width: 87%;
-  margin: 0 auto;
-}
-/* line 122, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.blackhead-main > div > div img {
-  width: 90%;
-  margin-bottom: 60px;
-}
+  text-align: center; }
+  .blackhead-main > div > div .description {
+    width: 87%;
+    margin: 0 auto; }
+  .blackhead-main > div > div img {
+    width: 90%;
+    margin-bottom: 60px; }
 
-/* line 128, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .blackhead-description {
   text-align: center;
   padding: 88px 0;
-  background-color: #FBFBFB;
-}
-/* line 132, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.blackhead-description b {
-  font-size: 22px;
-  line-height: 26px;
-  color: #5F5F5F;
-  margin-bottom: 8px;
-  display: block;
-  font-weight: 400;
-}
-/* line 140, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.blackhead-description p {
-  font-size: 18px;
-  line-height: 23px;
-  color: #909090;
-}
-/* line 145, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.blackhead-description li {
-  margin-bottom: 50px;
-}
+  background-color: #FBFBFB; }
+  .blackhead-description b {
+    font-size: 22px;
+    line-height: 26px;
+    color: #5F5F5F;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 400; }
+  .blackhead-description p {
+    font-size: 18px;
+    line-height: 23px;
+    color: #909090; }
+  .blackhead-description li {
+    margin-bottom: 50px; }
 
-/* line 150, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .blackhead-description > div > div {
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
-/* line 154, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .left-description {
   text-align: right;
-  margin-top: 80px !important;
-}
+  margin-top: 80px !important; }
 
-/* line 160, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .right-description {
   text-align: left;
-  margin-top: 80px !important;
-}
+  margin-top: 80px !important; }
 
-/* line 165, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .checkout {
-  padding: 80px 0;
-}
-/* line 167, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.checkout .showcase {
-  margin-bottom: 20px;
-}
-/* line 170, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.checkout .showcase > div {
-  margin-top: 30px;
-  width: 10%;
-  margin: 0 auto;
-}
-/* line 175, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.checkout .right {
-  margin-top: 30px;
-}
+  padding: 80px 0; }
+  .checkout .showcase {
+    margin-bottom: 20px; }
+  .checkout .showcase > div {
+    margin-top: 30px;
+    width: 10%;
+    margin: 0 auto; }
+  .checkout .right {
+    margin-top: 30px; }
 
-/* line 180, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .rail > div {
   text-align: center;
   margin-bottom: 60px;
   border-bottom: 1px solid rgba(214, 214, 214, 0.43);
-  padding-bottom: 27px;
-}
-/* line 185, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.rail > div .button {
-  margin-top: 20px;
-}
+  padding-bottom: 27px; }
+  .rail > div .button {
+    margin-top: 20px; }
 
-/* line 191, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .points {
   line-height: 7px !important;
-  margin-left: 22px;
-}
-/* line 194, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.points li {
-  list-style-type: disc !important;
-  font-size: 18px;
-  line-height: 22px;
-  color: #818181;
-  margin-bottom: 10px;
-  font-weight: 300;
-}
-
-/* line 204, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-.purchase {
-  margin: 80px 0 400px 0;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 212, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  h1 {
-    font-size: 26px;
-    line-height: 32px;
-  }
-
-  /* line 217, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  h2 {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  /* line 222, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  h3 {
+  margin-left: 22px; }
+  .points li {
+    list-style-type: disc !important;
     font-size: 18px;
     line-height: 22px;
-  }
+    color: #818181;
+    margin-bottom: 10px;
+    font-weight: 300; }
 
-  /* line 227, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
+.purchase {
+  margin: 80px 0 400px 0; }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+    line-height: 32px; }
+
+  h2 {
+    font-size: 20px;
+    line-height: 24px; }
+
+  h3 {
+    font-size: 18px;
+    line-height: 22px; }
+
   p, aside {
     font-size: 14px;
-    line-height: 18px;
-  }
+    line-height: 18px; }
 
-  /* line 232, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   p.dark {
-    font-size: 18px;
-  }
+    font-size: 18px; }
 
-  /* line 236, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .left {
     margin-top: 30px !important;
-    text-align: center;
-  }
+    text-align: center; }
 
-  /* line 241, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .right {
-    text-align: center;
-  }
-  /* line 243, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  .right img {
-    width: 50%;
-  }
+    text-align: center; }
+    .right img {
+      width: 50%; }
 
-  /* line 248, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .shop > div > div {
-    padding: 35px 0;
-  }
+    padding: 35px 0; }
 
-  /* line 252, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .blackhead-main > div > div {
-    padding: 60px 0;
-  }
-  /* line 255, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  .blackhead-main > div > div .description {
-    width: 100%;
-  }
-  /* line 259, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  .blackhead-main > div > div img {
-    width: 100%;
-    margin-bottom: 30px;
-  }
+    padding: 60px 0; }
+    .blackhead-main > div > div .description {
+      width: 100%; }
+    .blackhead-main > div > div img {
+      width: 100%;
+      margin-bottom: 30px; }
 
-  /* line 265, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .blackhead-description {
     padding: 50px 0;
-    text-align: left;
-  }
-  /* line 268, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  .blackhead-description b {
-    font-size: 16px;
-    line-height: 18px;
-  }
-  /* line 272, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  .blackhead-description p {
-    font-size: 14px;
-    line-height: 16px;
-  }
-  /* line 276, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  .blackhead-description li {
-    margin-bottom: 0px;
-  }
+    text-align: left; }
+    .blackhead-description b {
+      font-size: 16px;
+      line-height: 18px; }
+    .blackhead-description p {
+      font-size: 14px;
+      line-height: 16px; }
+    .blackhead-description li {
+      margin-bottom: 0px; }
 
-  /* line 281, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .left-description {
     text-align: left;
-    margin-top: 16px !important;
-  }
+    margin-top: 16px !important; }
 
-  /* line 286, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .right-description {
-    margin-top: 16px !important;
-  }
+    margin-top: 16px !important; }
 
-  /* line 290, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .middle {
     text-align: center;
-    margin: 0 auto !important;
-  }
-  /* line 293, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-  .middle img {
-    width: 9%;
-  }
+    margin: 0 auto !important; }
+    .middle img {
+      width: 9%; }
 
-  /* line 298, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .checkout {
-    padding: 50px 0;
-  }
+    padding: 50px 0; }
 
-  /* line 303, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .points li {
     font-size: 15px;
-    line-height: 20px;
-  }
-}
+    line-height: 20px; }
+
+  nav li.product {
+    margin: 0 0 0 10px !important; } }
 @media screen and (min-width: 1024px) {
-  /* line 315, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
   .container {
     width: 1024px;
-    margin: 0 auto;
-  }
-}
-/* line 322, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
+    margin: 0 auto; } }
 .pure-u-1 {
-  margin: -2px;
-}
+  margin: -2px; }
 
-/* line 327, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 nav, footer {
   position: relative;
-  z-index: 10;
-}
-/* line 332, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav #wrapper, footer #wrapper {
-  width: 100%;
-  padding: 14px 0;
-  background-color: #fcfcfc;
-  box-shadow: 2px 2px 2px rgba(229, 224, 224, 0.46);
-}
-/* line 340, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav .container, footer .container {
-  position: relative;
-  padding: 9px 0;
-}
-/* line 345, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav ul, footer ul {
-  *zoom: 1;
-  display: inline;
-  list-style: none;
-}
-/* line 8, /Users/rezaparang/projects/humanize/app/assets/stylesheets/_mixins.scss */
-nav ul:before, nav ul:after, footer ul:before, footer ul:after {
-  display: table;
-  content: "";
-}
-/* line 12, /Users/rezaparang/projects/humanize/app/assets/stylesheets/_mixins.scss */
-nav ul:after, footer ul:after {
-  clear: both;
-}
-/* line 351, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav li.logo, footer li.logo {
-  float: left;
-  margin: 0;
-}
-/* line 355, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav li.logo span, footer li.logo span {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 19px;
-  letter-spacing: 3px;
-  color: #515654;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.11);
-}
-/* line 364, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav li.logo span:hover, footer li.logo span:hover {
-  color: #838a87;
-}
-/* line 370, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav li, footer li {
-  float: right;
-  margin: 0 0 0 15px;
-}
-/* line 374, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav li a, footer li a {
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 0.83px;
-  color: #515654;
-}
-/* line 382, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav li a:hover, footer li a:hover {
-  color: #838a87;
-}
-/* line 389, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav li.buy a, footer li.buy a {
-  border: 2px solid #96df66;
-  padding: 7px 28px;
-  border-radius: 4px;
-  background-color: white;
-  text-transform: none;
-}
-/* line 398, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
-nav li.buy a:hover, footer li.buy a:hover {
-  background-color: #96df66;
-  color: white;
-}
+  z-index: 10; }
+  nav #wrapper, footer #wrapper {
+    width: 100%;
+    padding: 14px 0;
+    background-color: #fcfcfc;
+    box-shadow: 2px 2px 2px rgba(229, 224, 224, 0.46); }
+  nav .container, footer .container {
+    position: relative;
+    padding: 9px 0; }
+  nav ul, footer ul {
+    *zoom: 1;
+    display: inline;
+    list-style: none; }
+    nav ul:before, nav ul:after, footer ul:before, footer ul:after {
+      display: table;
+      content: ""; }
+    nav ul:after, footer ul:after {
+      clear: both; }
+  nav li.logo, footer li.logo {
+    float: left;
+    margin: 0; }
+    nav li.logo span, footer li.logo span {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 19px;
+      letter-spacing: 3px;
+      color: #515654;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.11); }
+    nav li.logo span:hover, footer li.logo span:hover {
+      color: #838a87; }
+  nav li, footer li {
+    float: right;
+    margin: 0 0 0 15px; }
+    nav li a, footer li a {
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.83px;
+      color: #515654; }
+    nav li a:hover, footer li a:hover {
+      color: #838a87; }
+  nav li.buy a, footer li.buy a {
+    border: 2px solid #96df66;
+    padding: 7px 28px;
+    border-radius: 4px;
+    background-color: white;
+    text-transform: none; }
+  nav li.buy a:hover, footer li.buy a:hover {
+    background-color: #96df66;
+    color: white; }
 
-/* line 407, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 footer #wrapper {
   background-color: white;
   margin-top: 50px;
-  box-shadow: none;
-}
-/* line 412, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
+  box-shadow: none; }
 footer li.logo {
   text-shadow: none;
-  opacity: 0.3;
-}
+  opacity: 0.3; }
 
-/* line 418, /Users/rezaparang/projects/humanize/app/assets/stylesheets/main.scss */
 .copyright {
   font-size: 12px;
   color: #9b9b9b;
-  margin-top: 1px;
-}
+  margin-top: 1px; }
 /*!
 Pure v0.5.0
 Copyright 2014 Yahoo! Inc. All rights reserved.
