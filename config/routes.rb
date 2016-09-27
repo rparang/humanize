@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   root 'pages#index'
 
-  get 'product' => 'pages#product'
+  get 'product' => 'pages#product', :path => "blackhead_extractor"
   get 'about' => 'pages#about'
   get 'landing' => 'pages#landing'
   get 'checkout' => 'pages#checkout'
