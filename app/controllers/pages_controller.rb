@@ -18,11 +18,11 @@ class PagesController < ApplicationController
 		@copy = {
 			'lip' => {
 				'header' => "Your blackhead's worst nightmare",
-				'description' => "Rid blackheads around your lip line with our professional blackhead extractor. The same tool used by your facialist."
+				'description' => "Remove blackheads around your lip line with our professional blackhead extractor. The same tool used by your facialist."
 			},
 			'nose' => {
 				'header' => "Your blackhead's worst nightmare",
-				'description' => "Rid blackheads around on your nose with our professional blackhead extractor. The same tool used by your facialist."
+				'description' => "Remove blackheads on your nose with our professional blackhead extractor. The same tool used by your facialist."
 			},
 			'default' => {
 				'header' => "Your blackhead's worst nightmare",
