@@ -8,7 +8,13 @@
     <div class="rail pure-u-1 pure-u-md-1-2">
       <div>
         <h2>Humanize Blackhead Extractor</h2>
-        <h3>$12.99, includes shipping</h3>
+
+        <% if( @promo ) %>
+          <aside class="price"><span>$12.99</span>FREE, today only!</aside>
+        <% else %>
+          <aside class="price">$12.99, includes shipping</aside>
+        <% end %>
+
         <a href="<%= buy_path %>" class="button">Add to Cart</a>
       </div>
       <p>The Humanize blackhead extractor, a tool similar to what your facialist uses, puts pressure around blackheads, whiteheads, and pimples, releasing your skin’s hold on the blemish. Enjoy clearer skin the moment you begin using it.</p>
