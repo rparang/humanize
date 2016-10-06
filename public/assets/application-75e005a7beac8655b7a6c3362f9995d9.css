@@ -245,6 +245,9 @@ li {
     .checkout .showcase img {
       height: 300px; }
 
+  .rail > div aside.price {
+    font-size: 23px; }
+
   .points li {
     font-size: 15px;
     line-height: 20px; }
