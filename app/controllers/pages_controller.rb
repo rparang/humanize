@@ -23,7 +23,7 @@ class PagesController < ApplicationController
 		@header = landing_page_text[ @campaign ][ 'header' ] || @default[ 'header' ]
 		@description = landing_page_text[ @campaign ][ 'description' ] || @default[ 'description' ]
 
-		# Rails.logger.info( "promotion is #{@promotion}" )
+		Rails.logger.info( "c is #{@campaign}" )
 
 		# Promotion
 		if ( @promotion == "google" )
@@ -45,23 +45,58 @@ class PagesController < ApplicationController
 
 	end
 
+
   def buy
+  	@title = "Buy Now | The Humanize Blackhead Extractor | Humanize"
   end
+
 
   def landing_page_text
   	{
-			'lip' => {
-				'header' => "Your blackhead's worst nightmare",
-				'description' => "Remove blackheads around your lip line with our professional blackhead extractor. The same tool used by your facialist."
+
+  		# Treatment for blackheads
+			'treatment for blackheads' => {
+				'header' => "Your treatment for blackheads",
+				'description' => "Treat your blackheads with our professional blackhead extractor. The same tool used by your facialist."
 			},
+
+			# How remove blackheads
+			'how remove blackheads' => {
+				'header' => "How you can remove blackheads",
+				'description' => "Remove your blackheads with our professional blackhead extractor. The same tool used by your facialist."
+			},
+
+			# Home remedies for blackheads
+			'home remedies for blackheads' => {
+				'header' => "Your home remedy for blackheads",
+				'description' => "Remove your blackheads in the comfort of your home with our professional blackhead extractor. The same tool used by your facialist."
+			},
+
+			# Blackhead remedy
+			'blackhead remedy' => {
+				'header' => "Your blackhead remedy",
+				'description' => "Remove your blackheads in the comfort of your home with our professional blackhead extractor. The same tool used by your facialist."
+			},
+
+			# Blackhead remedy
+			'how get rid of blackheads' => {
+				'header' => "How to get rid of blackheads",
+				'description' => "Remove your blackheads with our professional blackhead extractor. The same tool used by your facialist."
+			},
+
+			# Nose
 			'nose' => {
 				'header' => "Your blackhead's worst nightmare",
 				'description' => "Remove blackheads on your nose with our professional blackhead extractor. The same tool used by your facialist."
 			},
+
+
+			# Default
 			'default' => {
 				'header' => "Your blackhead's worst nightmare",
 				'description' => "Rid your face of unsightful blackheads with our Blackhead Extractor. The same tool used by your facialist."
 			}
+
 		}
   end
 
