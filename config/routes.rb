@@ -17,5 +17,6 @@ Rails.application.routes.draw do
   get 'buy' => 'pages#buy'
 
   get 'blackheads' => 'pages#product'
+  get 'blackhead_tool' => 'pages#product'
 
 end
