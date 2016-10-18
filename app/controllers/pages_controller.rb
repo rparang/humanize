@@ -9,6 +9,7 @@ class PagesController < ApplicationController
 	end
 
 	def about
+
 	end
 
 	def product
@@ -30,7 +31,6 @@ class PagesController < ApplicationController
 			@promo = @promotion
 		end
 		
-
 	end
 
 	def checkout
@@ -98,6 +98,10 @@ class PagesController < ApplicationController
 			}
 
 		}
+  end
+
+  def letsencrypt
+  	render text: "kKywmgzP12kpgqDwewKpeVtJ6c7M7NSN2E-63-ECALE.LBJNq17UHmp11naLo6UihRkLvixGsoykQdfCeINsHbo"
   end
 
 
