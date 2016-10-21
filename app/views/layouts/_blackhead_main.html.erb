@@ -14,7 +14,7 @@
         <aside class="price"><span>$12.99</span>FREE, today only!</aside>
         <a href='<%= checkout_path + "?promo=google" %>' class="button promo">Get Yours Free Today</a>
       <% else %>
-        <aside class="price">$12.99, includes shipping</aside>
+        <aside class="price"><span>$12.99</span>$4.99</aside>
         <a href="<%= checkout_path %>" class="button">Buy Now</a>
       <% end %>
 
