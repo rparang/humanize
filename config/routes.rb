@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   # SSL using Lets Encrypt
   get '/.well-known/acme-challenge/kKywmgzP12kpgqDwewKpeVtJ6c7M7NSN2E-63-ECALE' => 'pages#letsencrypt'
 
+  resources :charges
+
 end
