@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'turbolinks'
-# gem 'rails', '4.1.4'
+# gem 'turbolinks'
+gem 'rails', '4.1.4'
 
 gem 'stripe'
 
