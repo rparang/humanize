@@ -6,7 +6,7 @@ h1 {
   font-size: 52px;
   line-height: 54px;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
-  color: #515654;
+  color: #272b29;
   margin: 0 0 16px 0; }
 
 h2 {
@@ -28,10 +28,10 @@ h3 {
 
 p, aside {
   font-weight: 300;
-  font-size: 22px;
-  line-height: 31px;
+  font-size: 18px;
+  line-height: 22px;
   color: #818181;
-  margin: 0 0 30px 0; }
+  margin: 0 0 20px 0; }
 
 aside {
   margin-bottom: 10px; }
@@ -45,10 +45,21 @@ a {
 li {
   list-style: none; }
 
+.block {
+  display: block !important; }
+
+.sale {
+  display: inline-block;
+  padding: 6px 7px;
+  background: #0097A7;
+  color: white;
+  font-size: 14px;
+  margin-right: 20px; }
+
 .button {
   display: inline-block;
   text-transform: uppercase;
-  padding: 17px 80px;
+  padding: 17px 50px;
   color: white;
   font-size: 16px;
   font-weight: 300;
@@ -145,19 +156,46 @@ li {
   .checkout .right {
     margin-top: 30px; }
 
-.rail > div {
+.rail .intro {
   text-align: center;
-  margin-bottom: 60px;
-  border-bottom: 1px solid rgba(214, 214, 214, 0.43);
   padding-bottom: 27px; }
-  .rail > div aside.price {
+  .rail .intro aside.price {
+    display: inline-block;
     font-size: 28px;
-    font-weight: 400;
-    margin: 35px 0 22px 0; }
-    .rail > div aside.price span {
+    font-weight: 300;
+    margin: 10px 0 22px 0; }
+    .rail .intro aside.price span {
       display: inline-block;
-      margin-right: 20px;
-      text-decoration: line-through; }
+      margin-left: 20px;
+      text-decoration: line-through;
+      opacity: 0.6; }
+.rail .satisfaction, .rail .shipping-notice {
+  text-align: center;
+  font-family: Georgia, Arial;
+  font-size: 14px;
+  color: #666666;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgba(214, 214, 214, 0.63);
+  border-top: 2px solid rgba(214, 214, 214, 0.63); }
+.rail .shipping-notice {
+  text-transform: none; }
+.rail .overview {
+  margin: 20px 0; }
+  .rail .overview .before-after {
+    text-align: center;
+    margin-bottom: 20px; }
+    .rail .overview .before-after img {
+      width: 280px; }
+.rail .how-use .video {
+  text-align: center;
+  margin-bottom: 10px; }
+.rail .cta {
+  text-align: center; }
+  .rail .cta img {
+    margin: 10px 0; }
 
 .points {
   line-height: 7px !important;
@@ -188,7 +226,8 @@ li {
 
   p, aside {
     font-size: 14px;
-    line-height: 18px; }
+    line-height: 18px;
+    margin: 0 0 15px 0; }
 
   p.dark {
     font-size: 18px; }
@@ -245,8 +284,10 @@ li {
     .checkout .showcase img {
       height: 300px; }
 
-  .rail > div aside.price {
+  .rail .intro aside.price {
     font-size: 23px; }
+  .rail .cta img {
+    width: 280px; }
 
   .points li {
     font-size: 15px;
@@ -295,10 +336,10 @@ nav, footer {
       text-transform: uppercase;
       font-size: 19px;
       letter-spacing: 3px;
-      color: #515654;
+      color: #272b29;
       text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.11); }
     nav li.logo span:hover, footer li.logo span:hover {
-      color: #838a87; }
+      color: #58605c; }
   nav li, footer li {
     float: right;
     margin: 0 0 0 15px; }
@@ -307,9 +348,9 @@ nav, footer {
       text-transform: uppercase;
       font-size: 12px;
       letter-spacing: 0.83px;
-      color: #515654; }
+      color: #272b29; }
     nav li a:hover, footer li a:hover {
-      color: #838a87; }
+      color: #58605c; }
   nav li.buy a, footer li.buy a {
     border: 2px solid #96df66;
     padding: 7px 28px;
