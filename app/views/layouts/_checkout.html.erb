@@ -2,28 +2,51 @@
   <div class="container pure-g">
     <div class="showcase pure-u-1 pure-u-md-1-2">
       <div>
-        <img src="<%= image_url('tool_vertical.png') %>" alt="Humanize Blackhead Extractor Tool" />
+        <img src="<%= image_url('vertical_with_annotation.png') %>" alt="Humanize Blackhead Extractor Tool" />
       </div>
     </div>
     <div class="rail pure-u-1 pure-u-md-1-2">
-      <div>
-        <h2>Humanize Blackhead Extractor</h2>
-
-        <% if( @promo ) %>
-          <aside class="price"><span>$12.99</span>FREE, today only!</aside>
-        <% else %>
-          <aside class="price"><span>$12.99</span>$4.99</aside>
-        <% end %>
-
-        <a href="<%= buy_path %>" class="button">Add to Cart</a>
+      
+      <div class="intro">
+        <h2>Humanize: Premium Blackhead Extractor - FREE!</h2>
+          <div class="sale">Sale</div>
+          <% if( @promo ) %>
+            <aside class="price">FREE, today only!<span>$12.99</span></aside>
+          <% else %>
+            <aside class="price">$0.00<span>$12.99</span></aside>
+          <% end %>
+        <a href="<%= buy_path %>" class="button block">Get Yours Today</a>
       </div>
-      <p>The Humanize blackhead extractor, a tool similar to what your facialist uses, puts pressure around blackheads, whiteheads, and pimples, releasing your skin’s hold on the blemish. Enjoy clearer skin the moment you begin using it.</p>
-      <ul class="points">
-        <li>Surgical grade material to handle any desired pressure</li>
-        <li>Rust resistant for worry-free cleaning</li>
-        <li>Safely extract impurities varying in size on wide ranges of skin types</li>
-        <li>Dual angled loops gives you your best angle of attack on your facial blemishes</li>
-      </ul>
+
+      <div class="satisfaction">100% Satisfaction Guaranteed &amp; Easy Checkout</div>
+
+      <div class="overview">
+        <h2>This bestseller is FREE for the next few hours, just pay s+h!</h2>
+        <div class="before-after"><img src="<%= image_url('before_after.png') %>"></div>
+        <ul class="points">
+          <li>Surgical grade material to handle any desired pressure</li>
+          <li>Rust resistant for worry-free cleaning</li>
+          <li>Safely extract impurities varying in size on wide ranges of skin types</li>
+          <li>Dual angled loops gives you your best angle of attack on your facial blemishes</li>
+        </ul>
+      </div>
+      <div class="how-use">
+        <h2>How To Use Your Humanize Blackhead Extractor</h2>
+        <p>First, wash and warm your face to open your pores. A hot shower works perfectly.</p>
+        <p>Next, take the looped edge of the extractor and push gently downward on the edge of the blackhead. Slowly rock the loop back and forth, loosening the blachead from its hold.</p>
+        <p>Last, clean your face and enjoy your blackhead-free skin!</p>
+        <p>Here's a video demonstrating how to use it:</p>
+        <div class="video">
+          <iframe width="280" height="215" src="https://www.youtube.com/embed/oq1c1iHQp8Q" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="shipping-notice">We are able to offer low prices because we ship to you directly from our warehouse in China. As such, please allow up to 30 days for shipping.</div>
+      <div class="cta">
+        <h2>Get Clearer Skin Today!</h2>
+        <a href="<%= buy_path %>" class="button block">Buy Now</a>
+        <img src="<%= image_url('cards.png') %>">
+      </div>
+     
     </div>
   </div>
 </section>
