@@ -1,3 +1,8 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif; }
 
@@ -51,12 +56,12 @@ li {
 .sale {
   display: inline-block;
   padding: 6px 7px;
-  background: #0097A7;
+  background: #96df66;
   color: white;
   font-size: 14px;
   margin-right: 20px; }
 
-.button {
+.button, .stripe-button-el {
   display: inline-block;
   text-transform: uppercase;
   padding: 17px 50px;
