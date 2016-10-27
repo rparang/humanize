@@ -15,7 +15,32 @@
           <% else %>
             <aside class="price">$0.00<span>$12.99</span></aside>
           <% end %>
-        <a href="<%= buy_path %>" class="button block">Get Yours Today</a>
+        <!-- <a href="<%= buy_path %>" class="button block">Get Yours Today</a> -->
+
+<!-- Stripe -->
+<%= form_tag charges_path do %>
+  <article>
+    <% if flash[:error].present? %>
+      <div id="error_explanation">
+        <p><%= flash[:error] %></p>
+      </div>
+    <% end %>
+  </article>
+
+  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+          data-name: "Humanize: Premium Facial Products"
+          data-image: "<%= image_url('128.png') %>"
+          data-description="Shipping: $3.92"
+          data-amount="392"
+          data-label="Get Yours Today!"
+          data-shipping-address="true"
+          data-zip-code="true"
+          data-locale="auto"></script>
+<% end %>
+<!-- Stripe -->
+
+
       </div>
 
       <div class="satisfaction">100% Satisfaction Guaranteed &amp; Easy Checkout</div>
@@ -43,7 +68,32 @@
       <div class="shipping-notice">We are able to offer low prices because we ship to you directly from our warehouse in China. As such, please allow up to 30 days for shipping.</div>
       <div class="cta">
         <h2>Get Clearer Skin Today!</h2>
-        <a href="<%= buy_path %>" class="button block">Buy Now</a>
+        <!-- <a href="<%= buy_path %>" class="button block">Buy Now</a> -->
+
+<!-- Stripe -->
+<%= form_tag charges_path do %>
+  <article>
+    <% if flash[:error].present? %>
+      <div id="error_explanation">
+        <p><%= flash[:error] %></p>
+      </div>
+    <% end %>
+  </article>
+
+  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+          data-name: "Humanize: Premium Facial Products"
+          data-image: "<%= image_url('128.png') %>"
+          data-description="Shipping: $3.92"
+          data-amount="392"
+          data-label="Buy Now!"
+          data-shipping-address="true"
+          data-zip-code="true"
+          data-locale="auto"></script>
+<% end %>
+<!-- Stripe -->
+
+
         <img src="<%= image_url('cards.png') %>">
       </div>
      

@@ -70,7 +70,8 @@ li {
 .sale {
   display: inline-block;
   padding: 6px 7px;
-  background: #0097A7;
+  // background: #0097A7;
+  background: $green;
   color: white;
   font-size: 14px;
   margin-right: 20px;
@@ -82,9 +83,15 @@ li {
 
 
 
+// .stripe-button-el{
+//   font-family: $baseFontFamily;
+//   span {
+//     background: green !important;
+//     background-image: none !important;
+//   }
+// }
 
-
-.button {
+.button, .stripe-button-el {
   display: inline-block;
   text-transform: uppercase;
   padding: 17px 50px;
