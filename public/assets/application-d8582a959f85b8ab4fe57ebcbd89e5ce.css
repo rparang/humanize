@@ -930,7 +930,6 @@ https://github.com/yui/pure/blob/master/LICENSE.md
 
   .pure-u-xl-1, .pure-u-xl-1-1, .pure-u-xl-5-5, .pure-u-xl-24-24 {
     width: 100%; } }
-/* line 90, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 a,
 abbr,
 acronym,
@@ -1017,16 +1016,12 @@ xmp {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-/* line 99, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 html,
 body {
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 113, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 article,
 aside,
 details,
@@ -1038,113 +1033,78 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
-}
+  display: block; }
 
-/* line 120, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 b,
 strong {
   font-weight: bold;
   text-decoration: inherit;
-  font-style: inherit;
-}
+  font-style: inherit; }
 
 /*strong, b { text-decoration: inherit; font-weight:bolder; font-style: inherit; }*/
-/* line 130, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 ins {
   text-decoration: underline;
   font-weight: inherit;
-  font-style: inherit;
-}
+  font-style: inherit; }
 
-/* line 131, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 del, span, em {
   font-size: inherit;
-  font-weight: inherit;
-}
+  font-weight: inherit; }
 
-/* line 132, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 del, span {
-  font-style: inherit;
-}
+  font-style: inherit; }
 
-/* line 133, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 del {
-  text-decoration: line-through;
-}
+  text-decoration: line-through; }
 
-/* line 135, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 img {
   font-size: 0;
   vertical-align: middle;
-  -ms-interpolation-mode: bicubic;
-}
+  -ms-interpolation-mode: bicubic; }
 
-/* line 142, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 li {
-  display: list-item;
-}
+  display: list-item; }
 
-/* line 147, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* line 154, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 th,
 td,
 caption {
   font-weight: normal;
   vertical-align: top;
-  text-align: left;
-}
+  text-align: left; }
 
-/* line 160, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 svg {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-/* line 165, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 .hide {
-  display: none;
-}
+  display: none; }
 
-/* line 169, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 ul, ol {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 176, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
-/* line 179, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 ul {
-  list-style: disc;
-}
+  list-style: disc; }
 
-/* line 182, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 ol {
-  list-style: decimal;
-}
+  list-style: decimal; }
 
-/* line 185, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 li {
-  line-height: 18px;
-}
+  line-height: 18px; }
 
-/* line 189, /Users/rezaparang/projects/humanize/app/assets/stylesheets/reset.scss */
 ul.unstyled,
 ol.unstyled {
   margin-left: 0;
-  list-style: none;
-}
+  list-style: none; }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
