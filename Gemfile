@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.1.4'
-
+gem "jquery-rails", "~> 2.3.0"
 gem 'stripe'
 
 group :assets  do

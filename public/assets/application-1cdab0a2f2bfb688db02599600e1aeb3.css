@@ -1,3 +1,8 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif; }
 
@@ -56,7 +61,70 @@ li {
   font-size: 14px;
   margin-right: 20px; }
 
-.button {
+.stripe-button-el {
+  overflow: hidden !important;
+  display: inline-block !important;
+  visibility: visible !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  background-image: none !important;
+  -moz-border-radius: none !important;
+  -ms-border-radius: none !important;
+  -o-border-radius: none !important;
+  border-radius: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-tap-highlight-color: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  -o-user-select: none !important;
+  user-select: none !important;
+  cursor: pointer !important;
+  border-radius: 4px !important;
+  box-shadow: 0 0 4px rgba(58, 96, 33, 0.25) !important; }
+  .stripe-button-el span {
+    display: block !important;
+    position: relative !important;
+    padding: 10px 50px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    background: #96df66 !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    font-size: 17px !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-family: "Roboto", Helvetica, Arial, sans-serif !important;
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-border-radius: none !important;
+    -moz-border-radius: none !important;
+    -ms-border-radius: none !important;
+    -o-border-radius: none !important;
+    border-radius: none !important; }
+
+.button, .stripe-button-el {
   display: inline-block;
   text-transform: uppercase;
   padding: 17px 50px;
@@ -73,6 +141,9 @@ li {
 
 .button:hover {
   background-color: #a4e37b; }
+
+.stripe-button-el:hover {
+  background-color: #a4e37b !important; }
 
 .button.special {
   background-color: #DBFAC7;
